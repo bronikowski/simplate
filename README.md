@@ -13,7 +13,7 @@ Main goals:
   - no tons of DIVs, columns or billion of classes to define an element - if you want 3 boxes in row, you take 3 elements and apply them class-name ".box", that's all;
   - no grid apprach, so no floats and clearfixes are needed - every box is just a inline-block element;
   - in 9/10 cases, no any DIV.containers are needed too;
-  - you can build boxes in almost every variant, just few examples:
+  - you can build boxes in almost every combination, just few examples:
     * one full-width element:
     ```<div class="box"></div>```
     
@@ -30,7 +30,7 @@ Main goals:
     <div class="box span1-3"></div>
     ```
     
-    * content + sidebar:
+    * 3/4 + 1/4, in example - content + sidebar:
     ```
     <div class="box span3-4"></div> // 75% width of its container
     <div class="box span1-4"></div> // 25% width of its container
@@ -38,7 +38,7 @@ Main goals:
     
     * ...and so on. 
 
-Offsets are possible too. In example, if you have four elements in row but you want only 3 and the last one needs to be moved to the right of its parent, you can use an offset class-name like below:
+Grid's like offsets are possible too. In example, if you have four elements in row but you want only 3 and the last one needs to be moved to the right of its parent, you can use an offset class-name like below:
 ```
 <div class="some-container">
   <div class="box span1-4"></div> //box occupies 25% of parent's width
