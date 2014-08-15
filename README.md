@@ -51,7 +51,11 @@ Grid's-like offsets are possible too. In example, if you have four elements in r
 </div>
 ```
 Remember one thing only - sum of all elements widths and offsets cannot overdraw 100%!
-The last but not the least - you are not limited to DIVs only! Every element can be a box, just give it a class ".box":
+
+
+**Only DIVs?**
+
+Of course no! You are not limited to DIVs only! Every element can be a box, just give it a class ".box":
 ```
 <a href="#" class="box span1-5">This a link, which is also a box, which has 20% of its parent's width</a>
 ```
