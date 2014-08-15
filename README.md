@@ -2,11 +2,10 @@
 simplate
 ========
 
-Simplate is a tiny and simple responsive template engine for simple websites like blogs, company's websites or even apps.
-It is really-really basic and not bullet-proof (for now) so if you have not a really good foundation in CSS/LESS you should probably go to Bootstrap side or use any other framework, which there are many on today's Internet.
+Simplate is a tiny responsive template engine for simple websites like blogs, company's websites or even apps.
+It is really-really basic and not bullet-proof (for now) so if you have not strong foundation in CSS/LESS you should probably go to Bootstrap or use any other CSS framework, there are many on today's Internet.
 
-Main goals:
------------
+**Main goals:**
   - intelligent responsivness on every device (I'm still working on it!);
   - configure with just one LESS or SASS file (SASS version will be available later);
   - only layout related things are included (boxes), so no buttons, forms or any other pre-styled elements - if you need them, use Bootstrap or Foundation;
@@ -30,7 +29,7 @@ Main goals:
     <div class="box span1-3"></div>
     ```
     
-    * 3/4 + 1/4, in example - content + sidebar:
+    * 3/4 + 1/4, like content + sidebar:
     ```
     <div class="box span3-4"></div> // 75% width of its container
     <div class="box span1-4"></div> // 25% width of its container
@@ -38,7 +37,10 @@ Main goals:
     
     * ...and so on. 
 
-Grid's like offsets are possible too. In example, if you have four elements in row but you want only three and the last one needs to be moved to the right of its parent, you can use an offset class-name like in the example below:
+
+**Offsets**
+
+Grid's-like offsets are possible too. In example, if you have four elements in row but you want only three and the last one needs to be moved to the right of its parent, you can use an offset class-name like in the example below:
 ```
 <div class="some-container">
   <div class="box span1-4"></div> //box occupies 25% of parent's width
@@ -49,13 +51,18 @@ Grid's like offsets are possible too. In example, if you have four elements in r
 </div>
 ```
 Remember one thing only - sum of all elements widths and offsets cannot overdraw 100%!
-The last but not the least - you are not limited to DIVs only! Every element can be a box, just give it a class ".box":
+
+
+**Only DIVs?**
+
+Of course no! You are not limited to DIVs only! Every element can be a box, just give it a class ".box":
 ```
 <a href="#" class="box span1-5">This a link, which is also a box, which has 20% of its parent's width</a>
 ```
 
-(TODO!) Adventages of using .box-container:
------------------------------------
+
+**(TODO!) Adventages of using .box-container:**
+
 If you use a container and will not add any aditional classes for boxes, like below:
 ```
 <div class="box-container">
