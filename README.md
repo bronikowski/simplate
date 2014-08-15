@@ -60,7 +60,9 @@ Of course no! You are not limited to DIVs only! Every element can be a box, just
 <a href="#" class="box span1-5">This a link, which is also a box, which has 20% of its parent's width</a>
 ```
 
+
 **(TODO!) Adventages of using .box-container:**
+
 If you use a container and will not add any aditional classes for boxes, like below:
 ```
 <div class="box-container">
