@@ -13,12 +13,17 @@ Main goals:
   - no tons of DIVs, columns or billion of classes to define an element - if you want 3 boxes in row, you take 3 elements and apply them class-name ".box", that's all;
   - no grid apprach, so no floats and clearfixes are needed - every box is just a inline-block element;
 <<<<<<< HEAD
+<<<<<<< HEAD
   - in 9/10 cases no any additional DIV.container is needed;
   - you can build boxes in almost every combination, just few examples:
 =======
   - in 9/10 cases, no any DIV.containers are needed too;
   - you can build boxes in almost every variant, just few examples:
 >>>>>>> Adding files.
+=======
+  - in 9/10 cases, no any DIV.containers are needed too;
+  - you can build boxes in almost every variant, just few examples:
+>>>>>>> a1a4e9252f01fb186ff75e88c3ed59dd38d57051
     * one full-width element:
     ```<div class="box"></div>```
     
@@ -36,10 +41,14 @@ Main goals:
     ```
     
 <<<<<<< HEAD
+<<<<<<< HEAD
     * 3/4 + 1/4, in example - content + sidebar:
 =======
     * content + sidebar:
 >>>>>>> Adding files.
+=======
+    * content + sidebar:
+>>>>>>> a1a4e9252f01fb186ff75e88c3ed59dd38d57051
     ```
     <div class="box span3-4"></div> // 75% width of its container
     <div class="box span1-4"></div> // 25% width of its container
@@ -48,10 +57,14 @@ Main goals:
     * ...and so on. 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Grid's like offsets are possible too. In example, if you have four elements in row but you want only three and the last one needs to be moved to the right of its parent, you can use an offset class-name like in the example below:
 =======
 Offsets are possible too. In example, if you have four elements in row but you want only 3 and the last one needs to be moved to the right of its parent, you can use an offset class-name like below:
 >>>>>>> Adding files.
+=======
+Offsets are possible too. In example, if you have four elements in row but you want only 3 and the last one needs to be moved to the right of its parent, you can use an offset class-name like below:
+>>>>>>> a1a4e9252f01fb186ff75e88c3ed59dd38d57051
 ```
 <div class="some-container">
   <div class="box span1-4"></div> //box occupies 25% of parent's width
@@ -85,7 +98,11 @@ Demo:
 It took me only few hours to write it, so as for now only a simple demo is available. Documentation will come later, though every LESS file in the repo has useful comments.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 https://arti040.github.com/simplate/demo.html
 =======
 http://htmlpreview.github.io/?https://github.com/arti040/simplate/blob/master/demo.html
 >>>>>>> Adding files.
+=======
+http://htmlpreview.github.io/?https://github.com/arti040/simplate/blob/master/demo.html
+>>>>>>> a1a4e9252f01fb186ff75e88c3ed59dd38d57051
