@@ -38,7 +38,7 @@ Main goals:
     
     * ...and so on. 
 
-Grid's like offsets are possible too. In example, if you have four elements in row but you want only 3 and the last one needs to be moved to the right of its parent, you can use an offset class-name like below:
+Grid's like offsets are possible too. In example, if you have four elements in row but you want only three and the last one needs to be moved to the right of its parent, you can use an offset class-name like in the example below:
 ```
 <div class="some-container">
   <div class="box span1-4"></div> //box occupies 25% of parent's width
