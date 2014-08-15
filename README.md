@@ -12,7 +12,7 @@ Main goals:
   - only layout related things are included (boxes), so no buttons, forms or any other pre-styled elements - if you need them, use Bootstrap or Foundation;
   - no tons of DIVs, columns or billion of classes to define an element - if you want 3 boxes in row, you take 3 elements and apply them class-name ".box", that's all;
   - no grid apprach, so no floats and clearfixes are needed - every box is just a inline-block element;
-  - in 9/10 cases, no any DIV.containers are needed too;
+  - in 9/10 cases no any additional DIV.container is needed;
   - you can build boxes in almost every combination, just few examples:
     * one full-width element:
     ```<div class="box"></div>```
