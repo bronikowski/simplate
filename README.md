@@ -71,4 +71,4 @@ Demo:
 -----
 It took me only few hours to write it, so as for now only a simple demo is available. Documentation will come later, though every LESS file in the repo has useful comments.
 
-http://htmlpreview.github.io/?https://github.com/arti040/simplate/blob/master/demo.html
+https://arti040.github.com/simplate
