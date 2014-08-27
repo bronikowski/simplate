@@ -12,7 +12,7 @@
 .span2-5{width:40%}@media screen and (max-width: 42em){.span2-5{width:100%}}
 .span3-5{width:60%}@media screen and (max-width: 42em){.span3-5{width:100%}}
 .span4-5{width:80%}@media screen and (max-width: 42em){.span4-5{width:100%}}
-@media screen and (max-width: 32em){.box[class*="span"]{width:100% !important;margin-right:-6px !important}}@media screen and (max-width: 42em){.box[class*="span"]{margin-right:-6px !important}}
+@media screen and (max-width: 32em){.box[class*="span"]{width:100% !important;margin-right:-6px !important;margin-left:0}}@media screen and (max-width: 42em){.box[class*="span"]{margin-right:-6px !important;margin-left:0}}
 @media screen and (max-width: 32em){.box[class*="offset"]{margin-left:0 !important}}@media screen and (max-width: 42em){.box[class*="offset"]{margin-left:0 !important}}
 .box.margin-small{margin-right:4.67% !important}
 .box.margin-medium{margin-right:9.67% !important}
